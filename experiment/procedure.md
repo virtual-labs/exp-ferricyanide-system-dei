@@ -9,5 +9,5 @@
 <br>
 ●	Analyze the graph obtained from all four solutions.
 <br>
-●	The graph represents the impedance responses of different concentrations of K3Fe(CN)6 in the Nyquist format.
+●	The graph represents the impedance responses of different concentrations of K<sub>3</sub>Fe(CN)<sub>6</sub> in the Nyquist format.
 <br>
