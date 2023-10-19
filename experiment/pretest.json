@@ -2,38 +2,86 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Q1. Which of the following plots is used to determine the stability of the control system?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Nyquist plot.",
+        "b": "Polar plot.",
+        "c": "Bode plot.",
+        "d": "Root locus plot."
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+	  "correctAnswer": "a"     
+    },
+	{
+      "question": "Q2.___________ numbers of parallel resistor-capacitor sub-circuits must be placed in series to model a Warburg impedance exactly?",
+      "answers": {
+        "a": "Two.",
+        "b": "Infinite.",
+        "c": "Five.",
+        "d": "Ten."
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "b"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Q3. Potassium ferricyanide and potassium ferrocyanide are ______________?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Soluble but not fluorescent.",
+        "b": "Soluble and fluorescent.",
+        "c": "Fluorescent but not soluble.",
+        "d": "Neither fluorescent nor soluble."
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "b"
+    },
+	{
+      "question": "Q4. A typical electrochemical impedance experimental setup consists of an electrochemical cell, a potentiostat/galvanostat, and _____________.",
+      "answers": {
+        "a": "A reference electrode.",
+        "b": "Open circuit potential (OCP).",
+        "c": "A frequency response analyzer (FRA).",
+        "d": "A working electrode."
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "c"
+    },
+	{
+      "question": "Q5. Which of the following electrodes is necessary to close the electrical circuit in an electrochemical cell?",
+      "answers": {
+        "a": "The counter electrode.",
+        "b": "The working electrode.",
+        "c": "The reference electrode.",
+        "d": "Working and counter electrode."
+      },      
+      "correctAnswer": "a"
+    },	
+	{
+      "question": "Q6. _______________ is the total opposition offered by a RL series circuit?",
+      "answers": {
+        "a": "Reactance.",
+        "b": "Resistance.",
+        "c": "Inductance reactance.",
+        "d": "Impedance."
+      },     
+      "correctAnswer": "d"
+    },
+	
+	{
+      "question": "Q7. Which of the following plots is continued from the Polar plots?",
+      "answers": {
+        "a": "Nicholes plot.",
+        "b": "Bode plot.",
+        "c": "Nyquist plot.",
+        "d": "Root locus plot."
+      },      
+      "correctAnswer": "c"
+    },
+	{
+      "question": "Q8. Impedance is the ratio of:",
+      "answers": {
+        "a": "Voltage to current.",
+        "b": "Current to voltage.",
+        "c": "Potential to current.",
+        "d": "Current to potential."
+      },      
+      "correctAnswer": "a"
     }
   ]
+
 }
