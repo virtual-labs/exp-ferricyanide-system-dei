@@ -14,4 +14,4 @@ Rs =  electrolyte solution resistance, Rct = charge transfer resistance,
 CPE = a constant phase element, and Zw = Warburg impedance, expresses the impedance of ion diffusion to the electrode. Nyquist plot graph is a graph that plots impedance values measured at different frequencies. 
 Impedance responses of different concentrations of K<sub>3</sub>Fe(CN)<sub>6</sub> in the Nyquist format are shown below. <br>
 <br>
-![Figure2](images/image3.jpg)  ![Figure2](images/image4.png)
+![Figure2](images/image3.jpg)  ![Figure2](images/image4.jpg)
