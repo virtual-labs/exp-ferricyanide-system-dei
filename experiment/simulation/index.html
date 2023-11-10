@@ -21,6 +21,7 @@ $(document).ready(function(){
 		$(".followstep1").removeClass("active");
 		$(".followstep2").addClass("active");
         $("#step3").hide();
+		 $("#step10").hide();
         $("#step2").show();
 		 $('#cuso41n').attr('disabled', 'disabled');
 		 $('#cu1n').attr('disabled', 'disabled');
@@ -45,6 +46,7 @@ $(document).ready(function(){
 		$(".followstep3").addClass("active");
         $("#step1").hide();
         $("#step2").hide();
+		 $("#step10").hide();
 		 $("#step3").show();
 		 $('#cu1n').attr('disabled', 'disabled');
 		 $('#cuso41n').removeAttr('disabled', 'disabled');
@@ -66,6 +68,7 @@ $(document).ready(function(){
 		$(".followstep4").addClass("active");
         $("#step1").hide();
         $("#step2").hide();
+		 $("#step10").hide();
 		$("#step3").hide();
 		$("#step4").show();
 		$('#cuso41n').attr('disabled', 'disabled');
@@ -84,6 +87,7 @@ $(document).ready(function(){
     	$(".followstep4").removeClass("active");
 		$(".followstep5").addClass("active");
         $("#step1").hide();
+		 $("#step10").hide();
         $("#step2").hide();
 		$("#step3").hide();
 		$("#step4").hide();
@@ -104,19 +108,49 @@ $(document).ready(function(){
     	$(".followstep4").removeClass("active");
 		$(".followstep5").addClass("active");
         $("#step1").hide();
+		 $("#step10").hide();
         $("#step2").hide();
 		$("#step3").hide();
 		$("#step4").hide();
-		$("#step5").show();
+		$("#step5").hide();
+		$("#step6").hide();
+		$("#step7").hide();
+		$("#step8").hide();
+		$("#step9").show();
+		$('#cuso41n').attr('disabled', 'disabled');
+		$('#voltametern').attr('disabled', 'disabled');
+		 $('#cu1n').attr('disabled', 'disabled');
+		 //$('#voltametern').removeAttr('disabled', 'disabled');
+		 
+		  $('.inlink').removeClass('active');
+		 $('#saltbridagen').attr('disabled', 'disabled');
+		 $('#rodn').attr('disabled', 'disabled');
+		 $('#cuso41nao').attr('disabled', 'disabled');
+		$("#step9img1").attr("src","images/graph-combind.jpg");
+		setTimeout(function() {
+    $("#voltameter").show();
+            // $("#step5img").attr("src","assets/img/step5f.png");
+            }, 8000);
+    });
+	$("#rodn12").click(function(){
+    	$(".followstep5").removeClass("active");
+		$(".followstep6").addClass("active");
+        $("#step1").hide();
+        $("#step2").hide();
+		 $("#step10").hide();
+		$("#step3").hide();
+		$("#step4").hide();
+		$("#step5").hide();
+		$("#step6").show();
 		$('#cuso41n').attr('disabled', 'disabled');
 		 $('#cu1n').attr('disabled', 'disabled');
 		 $('#voltametern').removeAttr('disabled', 'disabled');
 		 $('#saltbridagen').attr('disabled', 'disabled');
 		 $('#rodn').attr('disabled', 'disabled');
 		 $('#cuso41nao').attr('disabled', 'disabled');
-		$("#step5img").attr("src","images/part5.gif");
+		$("#step6img1").attr("src","images/part5.gif");
 		setTimeout(function() {
-    $("#voltameter").show();
+    $("#success1").show();
             // $("#step5img").attr("src","assets/img/step5f.png");
             }, 8000);
     });
@@ -124,7 +158,7 @@ $(document).ready(function(){
 	
     	 $(".inlink").toggleClass('active');
 		 
-	
+	$('#rodn12').attr('disabled', 'disabled');
 		    
     });
 	$("#c1").click(function(){
@@ -142,10 +176,12 @@ $(document).ready(function(){
 		$("#step8").hide();
 		$("#step5").hide();
 		$("#step6").show();
+		$("#step9").hide();
 		$("#c121").show();
 		$("#c12").hide();
 		$("#c121").show();
 		$("#rank").show();
+		 $("#step10").hide();
 		$("#rank0").show();
 		$("#rank1").show();
 		$('#cuso41n').attr('disabled', 'disabled');
@@ -161,8 +197,8 @@ $(document).ready(function(){
             }, 8000);
 		 setTimeout(function() {
 		        $("#success1").show();
-				$("#success1").text("Switch on potentiostat instrumet!");
-		   }, 6000);
+				$("#success1").text("Switch on potentiostat instrument!");
+		   }, 200);
 			
 			
 
@@ -185,6 +221,8 @@ $(document).ready(function(){
 		$("#rank0").show();
 		$("#rank1").show();     
 		$("#step8").hide();
+		 $("#step10").hide();
+		$("#step9").hide();
 		$("#step6").hide();
 		$("#step7").show();
 		$('#cuso41n').attr('disabled', 'disabled');
@@ -200,8 +238,8 @@ $(document).ready(function(){
             }, 8000);
 			 setTimeout(function() {
 		        $("#success2").show();
-				$("#success2").text("Switch on potentiostat instrumet!");
-		   }, 6000);
+				$("#success2").text("Switch on potentiostat instrument!");
+		   }, 500);
 			
 
   });
@@ -225,6 +263,8 @@ $(document).ready(function(){
 		$("#rank1").show();
 		$("#step7").hide();
 		$("#step8").show();
+		 $("#step10").hide();
+		$("#step9").hide();
 		$('#cuso41n').attr('disabled', 'disabled');
 		 $('#cu1n').attr('disabled', 'disabled');
 		 $('#voltametern').removeAttr('disabled', 'disabled');
@@ -235,10 +275,55 @@ $(document).ready(function(){
 		setTimeout(function() {
     $("#voltameter").show();
             // $("#step5img").attr("src","assets/img/step5f.png");
+            }, 20000);
+			 setTimeout(function() {
+		        $("#success3").show();
+				$("#success3").text("Switch on potentiostat instrument!");
+				
+		   }, 500);
+			
+			
+		
+
+    });
+	$("#g2").click(function(){
+		$("#success1").text("");
+		$("#success2").text("");
+		$("#success3").text("");
+		$("#b121").show();
+		$("#b12").hide();
+		window.scrollTo(0, 0);
+    	$(".followstep4").removeClass("active");
+		$(".followstep5").addClass("active");
+        $("#step1").hide();
+        $("#step2").hide();
+		$("#step3").hide();
+		$("#step4").hide();
+		$("#step5").hide();
+		$("#step6").hide();
+		$("#rank").hide();
+		$("#rank1").hide();
+		$("#rank0").hide();
+		$("#rank11").show();
+		$("#step9").hide();
+		$("#step7").hide();
+		$("#step8").hide();
+		 $("#step10").hide();
+		$("#step10").show();
+		$('#cuso41n').attr('disabled', 'disabled');
+		 $('#cu1n').attr('disabled', 'disabled');
+		 $('#voltametern').removeAttr('disabled', 'disabled');
+		 $('#saltbridagen').attr('disabled', 'disabled');
+		 $('#rodn').attr('disabled', 'disabled');
+		 $('#cuso41nao').attr('disabled', 'disabled');
+		$("#step81img1").attr("src","images/part6.png");
+		setTimeout(function() {
+    $("#voltameter").show();
+            // $("#step5img").attr("src","assets/img/step5f.png");
             }, 8000);
 			 setTimeout(function() {
 		        $("#success3").show();
-				$("#success3").text("Switch on potentiostat instrumet!");
+				$("#success3").text("Switch on potentiostat instrument!");
 				
 		   }, 6000);
 			
@@ -275,6 +360,7 @@ $(document).ready(function(){
 		$(".followstep5").addClass("active");
         $("#step1").hide();
         $("#step2").hide();
+		 $("#step10").hide();
 		$("#g121").hide();
 		$("#g12").show();
 		$("#step3").hide();
@@ -296,7 +382,7 @@ $(document).ready(function(){
 				$("#success2").text("Done");
 				$("#success3").text("");
 				$("#success2").show();
-		   }, 11000);			
+		   }, 50000);			
     });
 	$("#rank0").click(function(){
 	$("#number1").show();
@@ -328,6 +414,7 @@ $(document).ready(function(){
 		$(".followstep5").addClass("active");
         $("#step1").hide();
 		$("#c121").hide();
+		 $("#step10").hide();
 		$("#c12").show();
         $("#step2").hide();
 		$("#step3").hide();
@@ -350,7 +437,7 @@ $(document).ready(function(){
 				$("#success2").text("");
 				$("#success3").text("");
 				$("#success1").show();
-		   }, 11000);		
+		   }, 70000);		
     });
 	  $("#rank1").click(function(){
 	  $("#number3").show();
@@ -389,6 +476,7 @@ $(document).ready(function(){
 		$("#step6").hide();
 		$("#step7").hide();
 		$("#step8").show();
+		 $("#step10").hide();
 		$('#cuso41n').attr('disabled', 'disabled');
 		 $('#cu1n').attr('disabled', 'disabled');
 		 $('#voltametern').removeAttr('disabled', 'disabled');
@@ -403,7 +491,66 @@ $(document).ready(function(){
 				$("#success2").text("");
 				$("#success3").show();
 				$("#success3").text("Done");
-		   }, 11000);			
+		   }, 70000);			
+    });
+	 $("#rank11").click(function(){
+	  $("#number3").show();
+	  $("#success1").text("");
+		$("#success2").text("");
+		$("#success3").text("");
+	   setTimeout(function() {
+		        $("#number3").text("0.01");
+		   }, 1000);
+		    setTimeout(function() {
+		        $("#number3").text("0.02");
+		   }, 2000);
+		    setTimeout(function() {
+		        $("#number3").text("0.03");
+		   }, 3000);
+		    setTimeout(function() {
+		        $("#number3").text("0.04");
+		   }, 4000);
+		    setTimeout(function() {
+		        $("#number3").text("0.05");
+		   }, 5000);
+		window.scrollTo(0, 0);
+    	$(".followstep4").removeClass("active");
+		$(".followstep5").addClass("active");
+        $("#step1").hide();
+		 $("#success1").hide();
+		  $("#success2").hide();
+		   $("#success3").hide();
+		  $(".blink").hide(); 
+        $("#step2").hide();
+		$("#step3").hide();
+		$("#b121").hide();
+		$("#b12").hide();
+		$("#b1210").show();
+		$("#b12190").hide();
+		
+		$("#step4").hide();
+		$("#step5").hide();
+		$("#step6").hide();
+		$("#step7").hide();
+		$("#step8").show();
+		$('#cuso41n').attr('disabled', 'disabled');
+		 $('#cu1n').attr('disabled', 'disabled');
+		 $('#voltametern').removeAttr('disabled', 'disabled');
+		 $('#saltbridagen').attr('disabled', 'disabled');
+		 $('#rodn').attr('disabled', 'disabled');
+		 $('#cuso41nao').attr('disabled', 'disabled');
+		 
+		$("#step811img1").attr("src","images/part7.gif");
+	 $("#step8111img").attr("src","images/graph-d.gif"); 
+
+	 setTimeout(function() {
+		        $("#success1").text("");
+				$("#success2").text("");
+				$("#success3").text("");
+				$("#success4").text("");
+				$("#success5").show();
+				$("#success5").text("Done");
+		   }, 70000);			
     });
 	$("#off").click(function(){
 	$('#firsttbl').show();
@@ -542,6 +689,7 @@ $(document).ready(function(){
 		$("#step5").hide();
 		$("#step6").hide();
 		$("#step8").hide();
+		 $("#step10").hide();
 		$("#success").hide();
 
 
@@ -685,21 +833,21 @@ $(document).ready(function(){
 			   <!-- Begin step6-->
 			 <div id="step6" style="display:none;">
 			
-				<span id="success1" style="display:none;" class="blink">Switch on potentiostat instrumet!</span>
+				<span id="success1" style="display:none;" class="blink">Step6: Click on Graphs icon and Choose any one graph!</span>
 				<p id="c121">
 				<span id="rank0"></span>
 				<img src=""  id="step6img1" style="width:640px;height:480px;">
 				</p>
 				<div style="display:none;padding-top:100px;" id="c12">
 				<img src=""  id="step6img" style="width:50%;padding:10px;float: left;">
-				<div id="chartContainer61" style="max-width: 50%; margin: 0px auto;float: right;"><img src=""  id="step61img"  style="max-width: 420px;padding:10px;"></div>
+				<div id="chartContainer61" style="max-width: 50%; margin: 0px auto;float: right;"><img src=""  id="step61img"  style="max-width: 420px;padding:10px;margin-top:10%;"></div>
 				</div>
 			 </div>
 			 <!-- End step6-->
 			   <!-- Begin step7-->
 			 <div id="step7" style="display:none;">
 			
-			     <span id="success2" style="display:none;" class="blink">Switch on potentiostat instrumet!</span>
+			     <span id="success2" style="display:none;" class="blink">Switch on potentiostat instrument!</span>
 				<p id="g121">
 				<span id="rank"></span>
 				<img src=""  id="step7img1" style="width:640px;height:480px;">
@@ -708,14 +856,14 @@ $(document).ready(function(){
 				<div  style="display:none;padding-top:100px;" id="g12">
 				
 				<img src=""  id="step7img" style="width:50%;padding:10px;float: left;">
-				<div id="chartContainer71" style=" max-width: 50%; margin: 0px auto;float: right;"><img src=""  id="step71img" style="max-width: 420px;padding:10px;"></div>
+				<div id="chartContainer71" style=" max-width: 50%; margin: 0px auto;float: right;"><img src=""  id="step71img" style="max-width: 420px;padding:10px;margin-top:10%;"></div>
 				</div>
 			 </div>
 			 <!-- End step7-->
 		        <!-- Begin step8-->
 			 <div id="step8" style="display:none;">
 			
-			   <span id="success3" style="display:none;" class="blink">Switch on potentiostat instrumet!</span>
+			   <span id="success3" style="display:none;" class="blink">Switch on potentiostat instrument!</span>
 				
 				<p id="b121">
 				<span id="rank1"></span>
@@ -723,10 +871,40 @@ $(document).ready(function(){
 				</p>
 				<div style="display:none;padding-top:100px;" id="b12">
 				<img src=""  id="step8img" style="width:50%;padding:10px;float: left;">
-				<div id="chartContainer81" style=" max-width: 50%; margin: 0px auto;float: right;"><img src=""  id="step81img"  style="max-width: 420px;padding:10px;"></div>
+				<div id="chartContainer81" style=" max-width: 50%; margin: 0px auto;float: right;"><img src=""  id="step81img"  style="max-width: 420px;padding:10px;margin-top: 10%;"></div>
 				</div>
 			 </div>
 			 <!-- End step8-->
+			     <!-- Begin step9-->
+			 <div id="step9" style="display:none;">
+			
+			   <span id="success4" style="display:none;" class="blink">Switch on potentiostat instrument!</span>
+				
+				<p id="b12112">
+				<span id="rank123"></span>
+				<img src=""  id="step9img1" style="width:640px;height:480px;">
+				</p>
+				<div style="display:none;padding-top:100px;" id="b12">
+				<img src=""  id="step8img" style="width:50%;padding:10px;float: left;">
+				<div id="chartContainer81" style=" max-width: 50%; margin: 0px auto;float: right;"><img src=""  id="step81img"  style="max-width: 420px;padding:10px;"></div>
+				</div>
+			 </div>
+			 <!-- End step9-->
+			   <!-- Begin step10-->
+			 <div id="step10" style="display:none;">
+			
+			   <span id="success5" style="display:none;" class="blink">Switch on potentiostat instrument!</span>
+				
+				<p id="b12190">
+				<span id="rank11"></span>
+				<img src=""  id="step81img1" style="width:640px;height:480px;">
+				</p>
+				<div style="display:none;padding-top:100px;" id="b1210">
+				<img src=""  id="step811img1" style="width:50%;padding:10px;float: left;">
+				<div id="chartContainer811" style=" max-width: 50%; margin: 0px auto;float: right;"><img src=""  id="step8111img"  style="max-width: 420px;padding:10px;margin-top: 10%;"></div>
+				</div>
+			 </div>
+			 <!-- End step10-->
 		</div>
 		<div id="rightsidebar" class="rightsidebar" style="display:none;">
 			<a href="javascript:void(0);" id="skip">Skip Full Screen</a><a href="javascript:void(0);" id="resetn">Reset</a>
@@ -735,7 +913,7 @@ $(document).ready(function(){
 			<a href="javascript:void(0);" id="cuso41n"><img src="images/Icon-B.jpg"></a>
 			<a href="javascript:void(0);" id="saltbridagen"><img src="images/Icon-C.jpg" ></a>			
 			<a href="javascript:void(0);" id="rodn"><img src="images/Icon-D.jpg"></a>
-			<a href="javascript:void(0);" id="rodn1"><img src="images/Icon-E.jpg"></a>
+			<a href="javascript:void(0);" id="rodn12"><img src="images/Icon-E.jpg"></a>
 			
 			
 			<a href="javascript:void(0);" id="voltametern"><img src="images/graph-icon.png"></a>
@@ -744,7 +922,7 @@ $(document).ready(function(){
 			<a href="javascript:void(0);" id="b1" style="width:50px;"><img src="images/solution-a-icon.png" style="width:50px!important;">Graph-A</a>
 			<a href="javascript:void(0);" id="c1" style="width:50px;"><img src="images/solution-b-icon.png" style="width:50px!important;">Graph-B</a>		
 			<a href="javascript:void(0);" id="g1" style="width:50px;"><img src="images/solution-c-icon.png" style="width:50px!important;">Graph-C</a>
-			<a href="javascript:void(0);" id="g1" style="width:50px;"><img src="images/solution-d-icon.png" style="width:50px!important;">Graph-D</a>
+			<a href="javascript:void(0);" id="g2" style="width:50px;"><img src="images/solution-d-icon.png" style="width:50px!important;">Graph-D</a>
 			</p>
 			<a href="javascript:void(0);" id="rodn1"><img src="images/graph-combind-icon.png"></a>
 			<!--<p class="inlink"><a href="javascript:void(0);" id="b1"><img src="images/b1.jpg"></a></p>
