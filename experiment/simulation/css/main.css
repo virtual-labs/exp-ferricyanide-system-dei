@@ -415,6 +415,15 @@ width: 79px;
 height: 50px;
 cursor: pointer;
 }
+#rank11{
+ position: absolute;
+left: 30%;
+top: 58%;
+color: #c4c3c8;
+width: 79px;
+height: 50px;
+cursor: pointer;	
+}
 #off {
   left: 65%;
   position: absolute;
