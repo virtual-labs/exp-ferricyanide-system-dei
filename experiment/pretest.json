@@ -2,32 +2,32 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Q1. Which of the following plots is used to determine the stability of the control system?",
+      "question": "Q1. 	Electrochemical Impedance Spectroscopy (EIS) primarily measures:",
       "answers": {
-        "a": "Nyquist plot.",
-        "b": "Polar plot.",
-        "c": "Bode plot.",
-        "d": "Root locus plot."
+        "a": "Impedance as a function of frequency.",
+        "b": "Current as a function of time.",
+        "c": "Potential as a function of time.",
+        "d": "Charge as a function of potential."
       },
 	  "correctAnswer": "a"     
     },
 	{
-      "question": "Q2.___________ numbers of parallel resistor-capacitor sub-circuits must be placed in series to model a Warburg impedance exactly?",
+      "question": "Q2. In a Nyquist plot, the diameter of the semicircle corresponds to:",
       "answers": {
-        "a": "Two.",
-        "b": "Infinite.",
-        "c": "Five.",
-        "d": "Ten."
+        "a": "Warburg impedance.",
+        "b": "Charge transfer resistance (Rct).",
+        "c": "Double-layer capacitance (Cdl).",
+        "d": "Solution resistance (Rs)."
       },
       "correctAnswer": "b"
     },
     {
-      "question": "Q3. Potassium ferricyanide and potassium ferrocyanide are ______________?",
+      "question": "Q3. Changing the working electrode material mainly affects:",
       "answers": {
-        "a": "Soluble but not fluorescent.",
-        "b": "Soluble and fluorescent.",
-        "c": "Fluorescent but not soluble.",
-        "d": "Neither fluorescent nor soluble."
+        "a": "Frequency range of measurement.",
+        "b": "Charge transfer resistance and interfacial behavior.",
+        "c": "Electrolyte conductivity.",
+        "d": "Reference electrode potential."
       },
       "correctAnswer": "b"
     },
@@ -63,12 +63,12 @@
     },
 	
 	{
-      "question": "Q7. Which of the following plots is continued from the Polar plots?",
+      "question": "Q7. The ferricyanide/ferrocyanide redox couple is commonly used in EIS because it:",
       "answers": {
-        "a": "Nicholes plot.",
-        "b": "Bode plot.",
-        "c": "Nyquist plot.",
-        "d": "Root locus plot."
+        "a": "Is electrochemically irreversible.",
+        "b": "Has low solubility in aqueous media.",
+        "c": "Shows fast and well-defined electron transfer kinetics.",
+        "d": "Forms insulating surface films."
       },      
       "correctAnswer": "c"
     },
