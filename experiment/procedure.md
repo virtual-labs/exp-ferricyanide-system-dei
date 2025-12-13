@@ -11,7 +11,7 @@
 <br>
 ●	The graph represents the impedance responses of different concentrations of K<sub>3</sub>Fe(CN)<sub>6</sub> in the Nyquist format.
 <br>
-##  Calculations:
+### Calculations:
 
 <br>
 ●	Prepare 0.01mM of potassium ferricyanide solution <br>
