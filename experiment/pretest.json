@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Q1. 	Electrochemical Impedance Spectroscopy (EIS) primarily measures:",
+      "question": "Q1. Electrochemical Impedance Spectroscopy (EIS) primarily measures:",
       "answers": {
         "a": "Impedance as a function of frequency.",
         "b": "Current as a function of time.",
