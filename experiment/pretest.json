@@ -12,7 +12,7 @@
 	  "correctAnswer": "a"     
     },
 	{
-      "question": "Q2. In a Nyquist plot, the diameter of the semicircle corresponds to:",
+      "question": "Q2. In a Nyquist plot, the diameter of the semicircle corresponds to: ",
       "answers": {
         "a": "Warburg impedance.",
         "b": "Charge transfer resistance (Rct).",
@@ -22,7 +22,7 @@
       "correctAnswer": "b"
     },
     {
-      "question": "Q3. Changing the working electrode material mainly affects:",
+      "question": "Q3. Changing the working electrode material mainly affects: ",
       "answers": {
         "a": "Frequency range of measurement.",
         "b": "Charge transfer resistance and interfacial behavior.",
@@ -42,7 +42,7 @@
       "correctAnswer": "c"
     },
 	{
-      "question": "Q5. Which of the following electrodes is necessary to close the electrical circuit in an electrochemical cell?",
+      "question": "Q5. Which of the following electrodes is necessary to close the electrical circuit in an electrochemical cell? ",
       "answers": {
         "a": "The counter electrode.",
         "b": "The working electrode.",
@@ -52,7 +52,7 @@
       "correctAnswer": "a"
     },	
 	{
-      "question": "Q6. _______________ is the total opposition offered by a RL series circuit?",
+      "question": "Q6. _______________ is the total opposition offered by a RL series circuit? ",
       "answers": {
         "a": "Reactance.",
         "b": "Resistance.",
@@ -63,7 +63,7 @@
     },
 	
 	{
-      "question": "Q7. The ferricyanide/ferrocyanide redox couple is commonly used in EIS because it:",
+      "question": "Q7. The ferricyanide/ferrocyanide redox couple is commonly used in EIS because it: ",
       "answers": {
         "a": "Is electrochemically irreversible.",
         "b": "Has low solubility in aqueous media.",
@@ -73,7 +73,7 @@
       "correctAnswer": "c"
     },
 	{
-      "question": "Q8. Impedance is the ratio of:",
+      "question": "Q8. Impedance is the ratio of: ",
       "answers": {
         "a": "Voltage to current.",
         "b": "Current to voltage.",
