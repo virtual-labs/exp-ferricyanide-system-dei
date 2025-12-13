@@ -11,3 +11,21 @@
 <br>
 ●	The graph represents the impedance responses of different concentrations of K<sub>3</sub>Fe(CN)<sub>6</sub> in the Nyquist format.
 <br>
+### Calculations:
+<br>
+●	Prepare 0.01mM of potassium ferricyanide solution <br>
+Required concentration = 0.01 mM = 1 × 10⁻⁵ M <br>
+Molecular weight of K₃[Fe(CN)₆] = 329.24 g mol⁻¹  <br>
+Volume of solution = 100 mL = 0.1 L <br>
+Mass=M×V×Molecular weight <br>
+=(1×10−5)×0.1×329.24 <br>
+=0.000329 gm <br>
+
+●	Prepare 0.1mM of potassium ferricyanide solution <br>
+Required concentration = 0.1 mM = 1 × 10-4 M <br>
+Molecular weight of K₃[Fe(CN)₆] = 329.24 g mol⁻¹ <br>
+Volume of solution = 100 mL = 0.1 L <br>
+Mass=M×V×Molecular weight <br>
+=(1×10−4)×0.1×329.24 <br>
+=0.00329 gm <br>
+
