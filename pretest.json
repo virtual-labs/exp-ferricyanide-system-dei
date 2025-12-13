@@ -1,0 +1,87 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Q1. Electrochemical Impedance Spectroscopy (EIS) primarily measures:",
+      "answers": {
+        "a": "Impedance as a function of frequency.",
+        "b": "Current as a function of time.",
+        "c": "Potential as a function of time.",
+        "d": "Charge as a function of potential."
+      },
+	  "correctAnswer": "a"     
+    },
+	{
+      "question": "Q2. In a Nyquist plot, the diameter of the semicircle corresponds to: ",
+      "answers": {
+        "a": "Warburg impedance.",
+        "b": "Charge transfer resistance (Rct).",
+        "c": "Double-layer capacitance (Cdl).",
+        "d": "Solution resistance (Rs)."
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "Q3. Changing the working electrode material mainly affects: ",
+      "answers": {
+        "a": "Frequency range of measurement.",
+        "b": "Charge transfer resistance and interfacial behavior.",
+        "c": "Electrolyte conductivity.",
+        "d": "Reference electrode potential."
+      },
+      "correctAnswer": "b"
+    },
+	{
+      "question": "Q4. A typical electrochemical impedance experimental setup consists of an electrochemical cell, a potentiostat/galvanostat, and _____________.",
+      "answers": {
+        "a": "A reference electrode.",
+        "b": "Open circuit potential (OCP).",
+        "c": "A frequency response analyzer (FRA).",
+        "d": "A working electrode."
+      },
+      "correctAnswer": "c"
+    },
+	{
+      "question": "Q5. Which of the following electrodes is necessary to close the electrical circuit in an electrochemical cell? ",
+      "answers": {
+        "a": "The counter electrode.",
+        "b": "The working electrode.",
+        "c": "The reference electrode.",
+        "d": "Working and counter electrode."
+      },      
+      "correctAnswer": "a"
+    },	
+	{
+      "question": "Q6. _______________ is the total opposition offered by a RL series circuit? ",
+      "answers": {
+        "a": "Reactance.",
+        "b": "Resistance.",
+        "c": "Inductance reactance.",
+        "d": "Impedance."
+      },     
+      "correctAnswer": "d"
+    },
+	
+	{
+      "question": "Q7. The ferricyanide/ferrocyanide redox couple is commonly used in EIS because it: ",
+      "answers": {
+        "a": "Is electrochemically irreversible.",
+        "b": "Has low solubility in aqueous media.",
+        "c": "Shows fast and well-defined electron transfer kinetics.",
+        "d": "Forms insulating surface films."
+      },      
+      "correctAnswer": "c"
+    },
+	{
+      "question": "Q8. Impedance is the ratio of: ",
+      "answers": {
+        "a": "Voltage to current.",
+        "b": "Current to voltage.",
+        "c": "Potential to current.",
+        "d": "Current to potential."
+      },      
+      "correctAnswer": "a"
+    }
+  ]
+
+}
