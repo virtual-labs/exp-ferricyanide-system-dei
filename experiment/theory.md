@@ -8,7 +8,11 @@ characteristics. This technique, along with CV method, is utilized to examine th
   <p align="center">
   <img src="images/theory1f.png" />
 </p>
-   
+  <p align="center">
+For the equivalent circuit model (ECM), the overall impedance ZA is defined as 
+𝑍1=𝑅s,   ⁢⁢𝑍2=𝑍𝐶⁢𝑃⁢𝐸= 1/(Q⁢(j⁢ω)a) <br>
+𝑍3=𝑅ct,   ⁢   ⁢   𝑍4=𝑍w= Aw/(√j⁢ω)   
+  </p> 
 <br>
 <br>
 For the equivalent circuit model (ECM), the overall impedance ZA is defined as 
