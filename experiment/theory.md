@@ -7,6 +7,10 @@ characteristics. This technique, along with CV method, is utilized to examine th
  data of electrochemical systems. The equivalent circuit model for the SPCE electrochemical system, with the Warburg element, is depicted below..<br>
 <br>
   ![Figure1](images/theory1f.png)
+
+  <p align="center">
+  <img src="images/theory1f.png" />
+</p>
    
 <br>
 <br>
