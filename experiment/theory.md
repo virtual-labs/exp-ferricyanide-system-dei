@@ -5,9 +5,9 @@ of electrodes. EIS is performed by measuring the alternating current potential t
 characteristics. This technique, along with CV method, is utilized to examine the screen-printed carbon-based electrodes, their magnitude of background currents, and their potential windows. SPCE is an alternative
  material used instead of conventional electrodes based on low background current, large potential window, and high chemical stability. Equivalent circuit models (ECMs) are used to analyze and interpret the impedance
  data of electrochemical systems. The equivalent circuit model for the SPCE electrochemical system, with the Warburg element, is depicted below..<br>
- <div align="center">
+<br>
   ![Figure1](images/theory1f.png)
-   </div>
+   
 <br>
 <br>
 For the equivalent circuit model (ECM), the overall impedance ZA is defined as 
