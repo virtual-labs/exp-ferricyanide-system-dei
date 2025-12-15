@@ -10,7 +10,7 @@ characteristics. This technique, along with CV method, is utilized to examine th
 </p>
   <p align="center">
 For the equivalent circuit model (ECM), the overall impedance Z<sub>A</sub> is defined as <br>
-𝑍<sub>1</sub>=𝑅<sub>s</sub>,   ⁢⁢𝑍<sub>2</sub>=𝑍<sub>CPE</sub>= 1/Q⁢(j⁢ω)a <br>
+𝑍<sub>1</sub>=𝑅<sub>s</sub>,   ⁢⁢𝑍<sub>2</sub>=𝑍<sub>CPE</sub>= 1/Q⁢(j<sub>w</sub>⁢)a <br>
 𝑍<sub>3</sub>=𝑅<sub>ct</sub>,   ⁢   ⁢   𝑍<sub>4</sub>=𝑍<sub>w</sub>= A<sub>w</sub>/ $\sqrt j⁢w$  
   </p> 
 <br>
