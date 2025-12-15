@@ -9,9 +9,9 @@ characteristics. This technique, along with CV method, is utilized to examine th
   <img src="images/theory1f.png" />
 </p>
   <p align="center">
-For the equivalent circuit model (ECM), the overall impedance ZA is defined as 
-𝑍1=𝑅s,   ⁢⁢𝑍2=𝑍𝐶⁢𝑃⁢𝐸= 1/(Q⁢(j⁢ω)a) <br>
-𝑍3=𝑅ct,   ⁢   ⁢   𝑍4=𝑍w= Aw/(√j⁢ω)   
+For the equivalent circuit model (ECM), the overall impedance Z<sub>A</sub> is defined as <br>
+𝑍<sub>1</sub>=𝑅s,   ⁢⁢𝑍<sub>2</sub>=𝑍<sub>CPE</sub>= 1/(Q⁢(j⁢ω)a) <br>
+𝑍<sub>3</sub>=𝑅ct,   ⁢   ⁢   𝑍<sub>4</sub>=𝑍<sub>w</sub>= Aw/(√j⁢ω)   
   </p> 
 <br>
 <br>
