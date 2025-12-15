@@ -14,9 +14,9 @@ For the equivalent circuit model (ECM), the overall impedance Z<sub>A</sub> is d
 𝑍<sub>3</sub>=𝑅<sub>ct</sub>,   ⁢   ⁢   𝑍<sub>4</sub>=𝑍<sub>w</sub>= Aw/(√j⁢ω)   
   </p> 
 <br>
+<p>$\sqrt{3x-1}+(1+x)^2$</p>
 <br>
-For the equivalent circuit model (ECM), the overall impedance ZA is defined as 
-![Figure2](images/image2.png)<br>
+
 
 Rs =  electrolyte solution resistance, Rct = charge transfer resistance, 
 CPE = a constant phase element, and Zw = Warburg impedance, expresses the impedance of ion diffusion to the electrode. Nyquist plot graph is a graph that plots impedance values measured at different frequencies. 
