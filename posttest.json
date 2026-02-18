@@ -1,0 +1,87 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Q1. What is the SI unit of impedance?",
+      "answers": {
+        "a": "Ohm.",
+        "b": "Siemens.",
+        "c": "Ampere.",
+        "d": "Candela."
+      },
+	  "correctAnswer": "a"     
+    },
+	{
+      "question": "Q2. ___________ is known as inverse impedance?",
+      "answers": {
+        "a": "Inductance.",
+        "b": "Admittance.",
+        "c": "Capacitance.",
+        "d": "Resistance."
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "Q3. Nyquist stability is based on the principle of _______________?",
+      "answers": {
+        "a": "Argument.",
+        "b": "Reflection.",
+        "c": "Refraction.",
+        "d": "Total Internal Reflection."
+      },
+      "correctAnswer": "a"
+    },
+	{
+      "question": "Q4. In electrochemical impedance spectroscopy (EIS), the magnetization branch of an equivalent circuit of a transformer is drawn in __________ with supply voltage.",
+      "answers": {
+        "a": "Parallel only.",
+        "b": "Series only.",
+        "c": "Parallel but not series.",
+        "d": "Series but not parallel."
+      },
+      "correctAnswer": "a"
+    },
+	{
+      "question": "Q5. A __________ electrode cell is used to analyze processes occurring within the electrolytes.",
+      "answers": {
+        "a": "Three.",
+        "b": "Two.",
+        "c": "Five.",
+        "d": "Four."
+      },      
+      "correctAnswer": "d"
+    },	
+	{
+      "question": "Q6. What is the basic difference between polar and Nyquist plots?",
+      "answers": {
+        "a": "Number of zeroes.",
+        "b": "Frequency handled.",
+        "c": "Number of poles.",
+        "d": "All of the above."
+      },     
+      "correctAnswer": "b"
+    },
+	
+	{
+      "question": "Q7. The _____________ were used to extract the physically meaningful model parameters to evaluate the electrochemical behavior of the redox probe SPCE system.",
+      "answers": {
+        "a": "Equivalent circuit models.",
+        "b": "Nyquist plot.",
+        "c": "Electrochemical impedance spectroscopy.",
+        "d": "Frequency response analyzer."
+      },      
+      "correctAnswer": "a"
+    },
+	{
+      "question": "Q8. In potentiostatic mode, experiments are done at a fixed __________ potential?",
+      "answers": {
+        "a": "DC.",
+        "b": "AC.",
+        "c": "Both DC and AC.",
+        "d": "Neither DC nor AC."
+      },      
+      "correctAnswer": "a"
+    }
+  ]
+
+}
