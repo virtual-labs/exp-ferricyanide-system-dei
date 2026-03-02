@@ -1,7 +1,7 @@
 ## Introduction
 
 
-<b>Discipline | <b> Chemical Sciences
+<b>Discipline | <b> Chemical Sciences(Chemistry)
 :--|:--|
 <b> Lab | <b> Electroanalytical Virtual Laboratory
 <b> Experiment|  <b>Electrochemical Impedance spectroscopy study of ferricyanide system using different working electrodes. 
