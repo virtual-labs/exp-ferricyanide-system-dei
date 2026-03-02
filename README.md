@@ -1,7 +1,7 @@
 ## Introduction
 
 
-<b>Discipline | <b>Chemical Binding(Chemistry)
+<b>Discipline | <b> Chemical Sciences
 :--|:--|
 <b> Lab | <b> Electroanalytical Virtual Laboratory
 <b> Experiment|  <b>Electrochemical Impedance spectroscopy study of ferricyanide system using different working electrodes. 
